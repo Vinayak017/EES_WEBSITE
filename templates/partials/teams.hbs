@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+
+          
+    <div class="container-fluid mt-5 about-style " id = "teams-id">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <h3 class="text-center main-heading"> Teams</h3>
+              <div class="row">
+               <div class="col-md-6 col-12 hero-text ">
+                <figure>
+                  <img src="images/team.jpeg" alt="svg-image" style="width:100%" >
+                </figure>
+               </div>
+            <div class="col-md-6 col-12 hero-text  d-flex justify-content-center align-items-start flex-column ">
+              {{!-- <h3>
+                About EES
+              </h3> --}}
+               {{!-- <p class="text-center sub-heading"> --}}
+                 <p>
+                   EES is a group of highly enthusiastics
+                    and motivated members who aim to provide 
+                    all types of guidance and mutual help to 
+                    each other for simultaneous growth.
+              </p>
+              <button class="btn-style btn-primary button" >
+                        {{!-- <a class="nav-link" href="/aboutpage"> --}}
+                Read More
+                {{!-- </a> --}}
+              </button>
+            </div> 
+           
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
